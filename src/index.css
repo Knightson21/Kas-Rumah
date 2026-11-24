@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-washi: #F7F5F0;
+  --color-surface: #FFFFFF;
+  --color-linen: #EFECE4;
+  --color-stone: #E5E0D5;
+  --color-stone-strong: #D4CEC0;
+  --color-sumi: #1C1917;
+  --color-muted: #6B655D;
+  --color-lapis: #1D3E5E;
+  --color-lapis-hover: #142D46;
+  --color-ochre: #B68D40;
+  --color-ochre-soft: #F6F0E2;
+  --color-jade: #1F6E4A;
+  --color-jade-soft: #EAF4EE;
+  --color-amber-warn: #B4690E;
+  --color-amber-soft: #FDF5E6;
+  --color-cinnabar: #B42318;
+  --color-cinnabar-soft: #FCECEB;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-washi);
+    color: var(--color-sumi);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  button, a, input, select, textarea {
+    outline-color: var(--color-lapis);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.font-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle architectural shoji hairline pattern for subtle brand dividers */
+.shoji-rule {
+  border-color: var(--color-stone);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

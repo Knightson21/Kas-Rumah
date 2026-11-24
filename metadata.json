@@ -1,0 +1,6 @@
+{
+  "name": "Kas Rumah",
+  "description": "Aplikasi pencatatan keuangan keluarga lokal untuk suami, istri, dan kas bersama dengan tiga akun terpisah, transfer antar-akun, anggaran, target tabungan, ekspor Excel, dan backup JSON.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#1D3E5E"/>
+  <!-- Outer Japanese shoji / Egyptian stepped architectural frame -->
+  <rect x="76" y="76" width="360" height="360" rx="28" stroke="#F7F5F0" stroke-opacity="0.24" stroke-width="10"/>
+  <!-- Stepped sanctuary roof / pyramid geometry -->
+  <path d="M128 242L256 134L384 242" stroke="#B68D40" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M164 242V364H348V242" stroke="#F7F5F0" stroke-width="20" stroke-linecap="square"/>
+  <!-- Three vertical ledger pillars representing Kas Suami, Kas Istri, Kas Keluarga -->
+  <line x1="214" y1="268" x2="214" y2="338" stroke="#F7F5F0" stroke-width="16" stroke-linecap="round"/>
+  <line x1="256" y1="248" x2="256" y2="338" stroke="#B68D40" stroke-width="18" stroke-linecap="round"/>
+  <line x1="298" y1="268" x2="298" y2="338" stroke="#F7F5F0" stroke-width="16" stroke-linecap="round"/>
+</svg>
